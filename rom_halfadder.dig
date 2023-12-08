@@ -101,6 +101,20 @@
       </elementAttributes>
       <pos x="240" y="340"/>
     </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>A:CS
+00:00
+01:01
+10:01
+11:10</string>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="180"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>

@@ -5,7 +5,16 @@
   <visualElements>
     <visualElement>
       <elementName>Clock</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Clock</string>
+        </entry>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
       <pos x="-140" y="400"/>
     </visualElement>
     <visualElement>
@@ -89,7 +98,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>1</string>
+          <string>Start</string>
         </entry>
         <entry>
           <string>InDefault</string>

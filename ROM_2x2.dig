@@ -8,70 +8,66 @@
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>8</int>
+          <int>2</int>
         </entry>
         <entry>
           <string>Data</string>
-          <data>1234,5678,9999</data>
+          <data>0,1,1,2</data>
         </entry>
       </elementAttributes>
-      <pos x="240" y="160"/>
+      <pos x="360" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>address</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>2</int>
+        </entry>
+      </elementAttributes>
+      <pos x="300" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>8</int>
-        </entry>
-      </elementAttributes>
-      <pos x="340" y="180"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>A</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
           <int>2</int>
         </entry>
-        <entry>
-          <string>InDefault</string>
-          <value v="1" z="false"/>
-        </entry>
       </elementAttributes>
-      <pos x="200" y="160"/>
+      <pos x="480" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>SEL</string>
+          <string>sel</string>
         </entry>
         <entry>
           <string>InDefault</string>
           <value v="1" z="false"/>
         </entry>
       </elementAttributes>
-      <pos x="200" y="200"/>
+      <pos x="300" y="240"/>
     </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="200" y="160"/>
-      <p2 x="240" y="160"/>
+      <p1 x="300" y="240"/>
+      <p2 x="360" y="240"/>
     </wire>
     <wire>
-      <p1 x="300" y="180"/>
-      <p2 x="340" y="180"/>
+      <p1 x="300" y="200"/>
+      <p2 x="360" y="200"/>
     </wire>
     <wire>
-      <p1 x="200" y="200"/>
-      <p2 x="240" y="200"/>
+      <p1 x="420" y="220"/>
+      <p2 x="480" y="220"/>
     </wire>
   </wires>
   <measurementOrdering/>

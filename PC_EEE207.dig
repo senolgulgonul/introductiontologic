@@ -16,7 +16,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>4</int>
         </entry>
         <entry>
           <string>isProgramCounter</string>
@@ -40,7 +40,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>4</int>
         </entry>
       </elementAttributes>
       <pos x="280" y="120"/>
@@ -50,7 +50,7 @@
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>4</int>
         </entry>
       </elementAttributes>
       <pos x="260" y="140"/>
@@ -68,6 +68,10 @@
     <visualElement>
       <elementName>Clock</elementName>
       <elementAttributes>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
         <entry>
           <string>Label</string>
           <string>C</string>
@@ -99,7 +103,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>4</int>
         </entry>
       </elementAttributes>
       <pos x="400" y="200"/>
@@ -118,7 +122,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>4</int>
         </entry>
       </elementAttributes>
       <pos x="400" y="120"/>
